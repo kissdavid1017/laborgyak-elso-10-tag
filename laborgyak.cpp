@@ -30,7 +30,7 @@ int main()
       n++;
       be>>c;
       v.push_back(c);
-      c=' ';
+      
 
   }
 kiir(v);

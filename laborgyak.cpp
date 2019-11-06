@@ -1,6 +1,14 @@
 #include<std_lib_facilities.h>
 #include<fstream>
 using namespace std;
+void kiir(vector<char> v)
+{
+    for(int i=0;i<v.size();i++)
+    {
+
+        cout<<v[i];
+    }
+}
 int main()
 {
   char file[10];
@@ -22,15 +30,11 @@ int main()
       n++;
       be>>c;
       v.push_back(c);
+      c=' ';
+
   }
+kiir(v);
 
-  for(int i=0;i<n;i++)
-    {
-        be.get(c);
-        cout<<v[i];
-
-
-    }
 
   return 0;
 
